@@ -44,6 +44,31 @@
         gesture-handler>
       </a-entity>
 
+      <!--Lakshay-->
+      <a-assets>
+        <a-asset-item id="Lakshay-info" src="assets/info3.glb"></a-asset-item>
+      </a-assets>
+  
+      <!--Pattern Marker-->
+      <a-marker id="Lakshay" type="pattern" url="assets/pattern-lakshay.patt" cursor="rayOrigin: mouse">
+        
+        <a-entity id="Lakshay-info" position="-1 0 0" scale="0.05 0.05 0.05" 
+          gltf-model="#Lakshay-info"
+          gesture-handler>
+        </a-entity>
+       
+        <!--Somesh-->
+        <a-assets>
+          <a-asset-item id="Somesh-info" src="assets/info2.glb"></a-asset-item>
+        </a-assets>
+    
+        <!--Pattern Marker-->
+        <a-marker id="Somesh" type="pattern" url="assets/pattern-somesh.patt" cursor="rayOrigin: mouse">
+          
+          <a-entity id="Somesh" position="-1 0 0" scale="0.05 0.05 0.05" 
+            gltf-model="#Somesh-info"
+            gesture-handler>
+          </a-entity>
 
      
       
